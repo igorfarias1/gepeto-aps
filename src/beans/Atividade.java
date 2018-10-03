@@ -3,6 +3,7 @@ import java.sql.Timestamp;
 
 public class Atividade {
 	
+	private int id;
 	private String materia;
 	private String categoria;
 	private Timestamp prazo;
@@ -24,5 +25,11 @@ public class Atividade {
 	}
 	public void setPrazo(Timestamp prazo) {
 		this.prazo = prazo;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 };
